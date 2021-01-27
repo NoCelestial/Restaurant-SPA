@@ -6,11 +6,10 @@
     background-size: cover;
     .brand {
         @include Centering(15%);
-        transform: translate(-50%,-50%);
         @include flex;
     }
 
     &-banner{
-
+        @include Centering(50%);
     }
 }
