@@ -1,0 +1,16 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background:linear-gradient(rgba($color-dark,0.8),rgba($color-black,0.2)), url($image-loc+"/bg.jpeg") center no-repeat;
+    background-size: cover;
+    .brand {
+        @include Centering(15%);
+        transform: translate(-50%,-50%);
+        @include flex;
+    }
+
+    &-banner{
+
+    }
+}

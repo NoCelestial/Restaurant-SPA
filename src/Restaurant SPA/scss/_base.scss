@@ -1,9 +1,23 @@
-$color-dart : #262626;
+@mixin flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin TextStyle {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+@mixin Centering($top) {
+    position: absolute;
+    top:$top ;
+    left: 50%;
+}
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: $color-dart;
+    background-color: $color-dark;
 }
