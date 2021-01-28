@@ -1,54 +1,44 @@
 .logo {
-    font-size: 70px;
-    color: $color-primary;
-    @include flex;
-    width: 110px;
-    height: 110px;
-    margin-right: 20px;
-    border: 2px solid $color-primary;
-    border-radius: 50%;
+  @include flexLayout;
+  font-size: 70px;
+  color: $color-primary;
+  width: 110px;
+  height: 110px;
+  margin-right: 20px;
+  border: 3px solid $color-primary;
+  border-radius: 50%;
 }
 
 .main-name{
     font-family: $font-Nunito;
     font-size: 50px;
     color: $color-secndary;
-    @include TextStyle;
+    @include textStyles;
 }
-.sub-name{
-    font-family: $font-Nunito;
+
+.sub-name {
+    font-family: $font-JosefinSans;
     font-size: 18px;
     color: $color-secndary;
     text-align: center;
-    @include TextStyle;
+    @include textStyles;
 }
 
-.main-heading {
+.main-heading{
     font-family: $font-DanscingScript;
     font-size: 100px;
     font-weight: 300;
-    margin-top: 40px;
     color: $color-primary;
     margin-bottom: 40px;
 }
+
 .sub-heading{
-    font-family: $font-DanscingScript;
-    font-size: 40px;
-    font-weight: 300;
-    color: $color-primary;
-    margin-bottom: 80px;
-    text-align: center;
-}
-.main-btn{
-     font-family: $font-Nunito;
-    font-size: 20px;
+    font-family: $font-JosefinSans;
+    font-size: 60px;
     font-weight: 300;
     color: $color-secndary;
     margin-bottom: 80px;
-    display: block;
-    align-items: center;
 }
-
 
 .main-btn {
     width: 170px;
@@ -66,6 +56,5 @@
     &:hover{
         background-color: $color-primary;
         color: $color-dark;
-        @include Centering(50%);
     }
 }

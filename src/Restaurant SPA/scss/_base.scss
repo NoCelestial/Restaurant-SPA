@@ -1,24 +1,27 @@
-@mixin flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@mixin flexLayout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@mixin TextStyle {
+
+@mixin textStyles {
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-@mixin Centering($top) {
+
+@mixin centering($topValue) {
     position: absolute;
-    top:$top ;
+    top: $topValue;
     left: 50%;
-    transform: translate(-50%,-50%);
-}
-*{
-    margin: 0;
-    padding: 0;
+    transform: translate(-50%, -50%);
 }
 
-body{
-    background-color: $color-dark;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: $color-dark;
 }
