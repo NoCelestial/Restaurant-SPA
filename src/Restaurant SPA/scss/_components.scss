@@ -10,7 +10,7 @@
 }
 
 .main-name{
-    font-family: $font-Nunito;
+    font-family: $font-Nastaliq;
     font-size: 50px;
     color: $color-secndary;
     @include textStyles;
@@ -25,9 +25,10 @@
 }
 
 .main-heading{
-    font-family: $font-DanscingScript;
+    font-family: $font-Nastaliq;
     font-size: 100px;
     font-weight: 300;
+    margin-top: 40px;
     color: $color-primary;
     margin-bottom: 40px;
 }
@@ -43,7 +44,7 @@
 .main-btn {
     width: 170px;
     height: 45px;
-    font-family: $font-Sahel;
+    font-family: $font-Nastaliq;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
