@@ -17,6 +17,19 @@
     transform: translate(-50%, -50%);
 }
 
+@font-face{
+    font-family: Nastaliq;
+    font-weight: normal;
+    src: url($font-loc+"/IranNastaliq.ttf");
+}
+@font-face{
+    font-family: Sahel;
+    font-weight: normal;
+    src: url($font-loc+"/Sahel.eot");
+    src: url($font-loc+"/Sahel.eot");
+    src: url($font-loc+"/Sahel.ttf") format("ttf"), url($font-loc+"/Sahel.woff") format("woff");
+}
+
 * {
   padding: 0;
   margin: 0;
