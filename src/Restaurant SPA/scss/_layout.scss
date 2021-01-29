@@ -34,15 +34,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 100px;
+    box-sizing: border-box;
+    .main-heading{
+      font-size: 40px;
+      margin-top: 100px;
+    }
+    .sub-heading{
+      font-size: 40px;
+    }
     .stars{
       margin: 30px 0;
     }
     .star{
+      font-size: 25px;
       margin-left: 8px;
       color: $color-primary;
     }
-    p{
-      direction: rtl;
+    .description{
+      font-family: $font-Nastaliq;
+      font-size: 23px;
+     direction: rtl;
+      color: $color-secndary;
+      text-align: justify;
+      &::first-letter{
+        padding-right: 25px;
+      }
     }
   }
 }
