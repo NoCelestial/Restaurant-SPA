@@ -29,6 +29,12 @@
   margin-right: 20px;
   border: 3px solid $color-primary;
   border-radius: 50%;
+  text-decoration: none;
+  @media (max-width: 1000px) {
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+  }
 }
 
 .main-name {
@@ -53,6 +59,12 @@
   margin-top: 40px;
   color: $color-primary;
   margin-bottom: 40px;
+  @media (max-width: 1600px) {
+    font-size: 80px;
+  }
+  @media (max-width: 1000px) {
+    font-size: 30px;
+  }
 }
 
 .sub-heading {
@@ -61,6 +73,20 @@
   font-weight: 300;
   color: $color-secndary;
   margin-bottom: 80px;
+  text-align: center;
+  @media (max-width: 1600px) {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  @media (max-width: 1300px) {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 1000px) {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
 }
 
 .main-btn {

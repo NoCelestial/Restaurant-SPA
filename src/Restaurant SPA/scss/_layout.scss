@@ -126,12 +126,34 @@
     align-items: center;
     padding: 0 80px;
     box-sizing: border-box;
+    @media (max-width: 1600px) {
+      padding: 0 60px;
+    }
     .main-heading {
       font-size: 40px;
       margin-top: 15px;
+      @media (max-width: 1600px) {
+        font-size: 30px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 20px;
+      }
     }
     .sub-heading {
       font-size: 25px;
+      @media (max-width: 1600px) {
+        font-size: 25px;
+        margin-bottom: 50px;
+      }
+
+      @media (max-width: 1300px) {
+        font-size: 10px;
+        margin-bottom: 30px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 5px;
+        margin-bottom: 15px;
+      }
     }
     .stars {
       margin: 15px 0;
@@ -149,6 +171,9 @@
       text-align: justify;
       &::first-letter {
         padding-right: 25px;
+      }
+      @media (max-width: 1600px) {
+        font-size: 20px;
       }
     }
   }
