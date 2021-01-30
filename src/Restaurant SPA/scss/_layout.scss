@@ -23,28 +23,27 @@
   align-items: center;
   &-left{
     width: 40%;
-
     img{
       width: 100%;
       opacity: .7;
     }
   }
   &-right{
-    width: 60%;
+   width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 100px;
+    padding: 0 80px;
     box-sizing: border-box;
     .main-heading{
       font-size: 40px;
-      margin-top: 100px;
+      margin-top: 15px;
     }
     .sub-heading{
-      font-size: 40px;
+      font-size: 25px;
     }
     .stars{
-      margin: 30px 0;
+      margin: 15px 0;
     }
     .star{
       font-size: 25px;
@@ -54,12 +53,56 @@
     .description{
       font-family: $font-Nastaliq;
       font-size: 23px;
-     direction: rtl;
+      direction: rtl;
       color: $color-secndary;
       text-align: justify;
       &::first-letter{
         padding-right: 25px;
       }
     }
+  }
+}
+
+.gallery{
+  .cards-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.footer{
+  padding: 70px 0;
+  @include flexLayout;
+  flex-direction: column;
+  &-header{
+    display: flex;
+    align-items: center;
+    padding: 70px;
+  }
+  .social-media{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    &-item{
+      list-style: none;
+    }
+
+    &-link{
+      text-decoration: none;
+      color: $color-secndary;
+      font-size: 50px;
+      transition: color 0.7s;
+      &:hover{
+        color: $color-primary;
+      }
+    }
+  }
+
+  &-copyright-paragraph{
+    font-family: $font-Nastaliq;
+    font-size: 20px;
+    color: $color-primary;
+    direction: rtl;
   }
 }
