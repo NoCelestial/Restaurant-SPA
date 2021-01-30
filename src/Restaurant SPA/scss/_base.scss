@@ -5,33 +5,34 @@
 }
 
 @mixin textStyles {
-    font-weight: 300;
-    letter-spacing: 2px;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 @mixin centering($topValue) {
-    position: absolute;
-    top: $topValue;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: $topValue;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 %fullspace {
-   height: 100%;
-   width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
-@font-face{
-    font-family: Nastaliq;
-    font-weight: normal;
-    src: url($font-loc+"/IranNastaliq.ttf");
+@font-face {
+  font-family: Nastaliq;
+  font-weight: normal;
+  src: url($font-loc + "/IranNastaliq.ttf");
 }
-@font-face{
-    font-family: Sahel;
-    font-weight: normal;
-    src: url($font-loc+"/Sahel.eot");
-    src: url($font-loc+"/Sahel.eot");
-    src: url($font-loc+"/Sahel.ttf") format("ttf"), url($font-loc+"/Sahel.woff") format("woff");
+@font-face {
+  font-family: Sahel;
+  font-weight: normal;
+  src: url($font-loc + "/Sahel.eot");
+  src: url($font-loc + "/Sahel.eot");
+  src: url($font-loc + "/Sahel.ttf") format("ttf"),
+    url($font-loc + "/Sahel.woff") format("woff");
 }
 
 * {
